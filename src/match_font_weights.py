@@ -131,6 +131,7 @@ def generate_weight(base_font_path, inter_font_path, out_path, weight_diff):
                     new_charstring = t2_pen.getCharString()
                     new_charstring.private = old_charstring.private
                     new_charstring.globalSubrs = getattr(old_charstring, 'globalSubrs', None)
+                    new_charstring.compile()
                     charstrings[target_glyph_name] = new_charstring
                 
                 count += 1
