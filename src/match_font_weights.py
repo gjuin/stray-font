@@ -142,7 +142,7 @@ def generate_weight(base_font_path, inter_font_path, out_path, weight_diff):
 if __name__ == "__main__":
     base_stray = r"C:\Users\gjuin\Documents\Dev\monfinary3\AI STUDIO\src\assets\fonts\stray.otf"
     inter_base = r"C:\Users\gjuin\Documents\Dev\monfinary3\fonts\node_modules\@fontsource\inter\files"
-    out_dir = r"C:\Users\gjuin\Documents\Dev\monfinary3\AI STUDIO\src\assets\fonts"
+    out_dir = r"C:\Users\gjuin\Documents\Dev\monfinary3\stray-font-astray\src"
     
     weights = {
         200: ("inter-latin-200-normal.woff", -30),
